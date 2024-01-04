@@ -49,4 +49,4 @@ def result():
     return request.method
 
 if __name__=="__main__":
-    application.run(use_reloader=True,debug=True)
+    application.run()
